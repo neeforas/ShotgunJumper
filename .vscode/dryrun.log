@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/johnsarofeen/Dev/Games/ImageTest'
+clang++ -std=c++17 src/main.cpp src/entity.cpp src/window.cpp -o app -Wall -Wextra -Winit-self -I include -L lib -l SDL2-2.0.0 -l SDL2_image-2.0.0
+./app
+make: Leaving directory `/Users/johnsarofeen/Dev/Games/ImageTest'
+ 
